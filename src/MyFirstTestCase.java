@@ -11,8 +11,8 @@ public class MyFirstTestCase {
 		ChromeDriver driver = new ChromeDriver();
 		
 		//driver.get("http://www.edureka.co");
-		driver.get("http://192.168.92.101:9943/about-us.php");
-		//driver.findElementByLinkText("Blog").click();
+		driver.get("http://192.168.92.101:9942/index.php");
+		driver.findElementByLinkText("About Us").click();
 		//String Input = "about";
 		String text = driver.findElementByTagName("b").getText();
 		//System.out.println(text);
